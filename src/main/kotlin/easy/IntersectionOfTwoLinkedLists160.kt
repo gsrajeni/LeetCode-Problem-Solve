@@ -20,6 +20,6 @@ fun main() {
     )
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
+class ListNode(var `val`: Int, var next: ListNode? = null) {
+
 }
