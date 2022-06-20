@@ -8,7 +8,7 @@ fun inorderTraversal(root: TreeNode?): List<Int> {
     return digTree(root)
 }
 
-fun digTree(tree: TreeNode?): List<Int> {
+private fun digTree(tree: TreeNode?): List<Int> {
     val returnList = mutableListOf<Int>()
 
     if (tree?.left != null)
