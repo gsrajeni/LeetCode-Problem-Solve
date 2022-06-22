@@ -19,4 +19,5 @@ fun intersect(nums1: IntArray, nums2: IntArray): IntArray {
         }
     }
     return returnList.toIntArray()
+    
 }
